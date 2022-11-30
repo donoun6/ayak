@@ -1,0 +1,9 @@
+CREATE TABLE Prescription (
+	pid				BIGINT		PRIMARY KEY		AUTO_INCREMENT,
+	Ps_Date			VARCHAR(10)		NOT NULL,
+	Ps_DrugStore	VARCHAR(10)		NOT NULL,
+	Ps_MedicineName	VARCHAR(30)		NOT NULL,
+	Ps_Description	VARCHAR(10000)	NOT NULL	
+) AUTO_INCREMENT = 1;
+
+SELECT * FROM Prescription;

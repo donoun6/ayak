@@ -1,0 +1,16 @@
+span.swiper-pagination-bullet {
+  width: 30px;
+  border-radius: 5px;
+}
+
+span.swiper-pagination-bullet.active {
+  color: white;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  margin-bottom: 30px;
+}

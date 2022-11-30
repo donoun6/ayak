@@ -1,0 +1,181 @@
+// alert
+.alert {
+  text-align: center;
+  border-radius: 0;
+  margin: 0;
+  .more{
+    display: inline-block;
+    background: white;
+    margin-left: 20px;
+    width: 100px;
+    line-height: 30px;
+    border-radius: 15px;
+    transition: .5s;
+    &:hover{
+      background: #60966f;
+      & a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    a {
+      color: #60966f;
+      text-decoration: none;
+      transition: .5s;
+    }
+  }
+}
+
+// nav
+.collapse {
+  margin-right: 20px;
+  ul {
+    li {
+      margin-left: 20px;
+      a {
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// jumbotron
+.jumbotron-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  .jumbotron {
+    position: relative;
+    margin: 20px;
+    height: 320px;
+    width: 450px;
+    border-radius: 30px;
+    background: #fcfcfc;
+    h1 {
+      font-weight: 600;
+      margin-top: -20px;
+    }
+  }
+}
+.lead {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+//button
+#wrap #section2 .section2-wrap button {
+  font-size: $fontSize6;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.on1:not(:focus), .on2:not(:focus) {
+  border-color: #ccc;
+  color: #ccc
+}
+
+.card {
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  .btn:not(:disabled):not(.disabled) {
+    margin-top: 30px;
+  }
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 100px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+  }
+}
+.col-md-5 {
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.introduce {
+  .inner {
+    p {
+
+    }
+  }
+}
+
+hr {
+  border: none;
+}
