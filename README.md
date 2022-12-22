@@ -1,12 +1,10 @@
 ### *Team PROJECT*
 
-# ⚠️Java Cafe
-> ### *약정보 검색사이트 구현 << JAVA CAFE >>*
+# ⚠️Ayak
+> ### *약정보 검색사이트 구현 << Ayak >>*
 </br>
 
 ![ayak_logout_suc](https://user-images.githubusercontent.com/95620922/209086467-b063231f-8c34-477f-a290-94e78d9b94f7.png)
-![ayak_search_sle_com_suc](https://user-images.githubusercontent.com/95620922/209086509-a18fb5dc-83fb-4fb3-ad04-7ab5826b73b5.png)
-
 
 </br>
 
@@ -21,6 +19,20 @@
 * **API** 👉 식품의약품안전처_의약품개요정보 사용
 
 </br>
+
+------
+
+</br>
+### 📌&nbsp;팀원소개 및 담당파트  
+
+|팀원|담당파트|
+|:---:|:---|
+|김준영</br>(조장)|약정보 API DB저장|
+|김동환|회원가입 / 로그인 / 로그아웃 / 아이디-비밀번호 찾기</br>화면 디자인 구현 / 약 검색기능|
+|강석환|약정보 API DB저장|
+|공동작업|개발환경 설정 / 기획 /  DB설계 / UI/UX 설계|
+</br>
+
 
 ------
 </br>
